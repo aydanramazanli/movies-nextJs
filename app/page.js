@@ -1,10 +1,9 @@
-
+import React from 'react';
+import HomeContainer from '../containers/home';
 
 export default function Home() {
   return (
-    <h1 className ="text-slate-200">
-    Hello world!
-  </h1>
+  <HomeContainer/>
   )
 }
- 
+  
