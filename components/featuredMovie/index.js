@@ -22,12 +22,12 @@ export default function FeaturedMovie({ movie = {} }) {
       <div className="flex ">
         <Link
           href="/"
-          className="bg-slate-200 px-10 py-2 mr-2  rounded-2xl text-black font-semibold"
+          className="bg-slate-200 px-14 py-2 mr-2  rounded-2xl text-black font-semibold"
         >
           {" "}
-          trailer
+          Trailer
         </Link>
-        <button className="bg-transparent border-white rounded-full border-solid border-[1px] px-4">
+        <button className="bg-transparent border-white rounded-full border-solid border-[1px] px-3">
           <FaPlus />
         </button>
       </div>
